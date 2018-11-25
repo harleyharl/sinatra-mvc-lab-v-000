@@ -1,7 +1,6 @@
 class PigLatinizer
   attr_reader :piglatinized_text
-  #
-
+  
   def vowel?(char)
     "aeiouAEIOU".include?(char)
   end
